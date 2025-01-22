@@ -25,3 +25,9 @@
 #
 #    1.1) Creazione di una tabella_pivot derivante dal dataset divorzi_religioso_df
 #    2.1) Mostrare tramite plot heatmap i valori del divorzio da matrimonio religioso nelle singole regioni tra il 2015-2021
+
+#4) 
+#    1)Media Matrimoni religiosi 
+#    2)Mediana Matrimoni religiosi
+#    3)Deviazione standard: Per valutare la variabilità tra i valori annuali.
+#    4)Trend
