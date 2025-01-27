@@ -1,33 +1,18 @@
-# LabBigData
-#1)
-#    1) Lettura file Matrimonio
-#    2) Suddivisione in due dataset
-#        1)Matrimonio Civile : df_civile
-#        2)Matrimonio Religioso : df_religioso
-#    3) Mostrare tramite plot la differenza di crescita tra gli anni 2009 e 2023 tra i due tipi
-#    4) Lettura di un nuovo file che indica l'età dello sposo e l'eta della sposa
-#    5) creazione di un nuovo dataset : Età_Matrimonio_df
-#    6) Creazione di uno scatter plot tridimensionale dove l'asse x e l'asse y sono l'età dello sposo e l'età della sposa mentra l'asse z sono gli anni. Per visualizzare i punti "caldi"
+<h1>Progetto per il Laboratorio di Big Data, Data Mining e Data Analytics<h1>
+<h3>Leonardo Garuti</h3>
 
-#2)
-#    1) Lettura di due file: separazioni e divorzi
-#    2) Creazione dei dataset separazioni_df e divorzi_df
-#    3) Suddivisione dei divorzi tra divorzi da matrimoni civili e matrimoni religiosi
-#        1) Divorzi da Matrimonio Civile: divorzi_civile_df
-#        2) Divorzi da Matrimonio Religioso: divorzi_religioso_df
-#    4) Mostrare tramite plot la differenza di crescita tra gli anni 2015 e 2021 tra i due tipi
-#    4) Lettura di un nuovo file che indica l'età del marito e l'eta della moglie alla separazione
-#    5) creazione di un nuovo dataset : Età_Divorzio_df
-#    6) Creazione di uno scatter plot tridimensionale dove l'asse x e l'asse y sono l'età del marito e l'età della moglie mentra l'asse z sono gli anni. Per visualizzare i punti "caldi"
-#3)
-#    1) Creazione di una tabella_pivot derivante dal dataset divorzi_civile_df
-#    2) Mostrare tramite plot heatmap i valori del divorzio da matrimonio civile nelle singole regioni tra il 2015-2021
-#
-#    1.1) Creazione di una tabella_pivot derivante dal dataset divorzi_religioso_df
-#    2.1) Mostrare tramite plot heatmap i valori del divorzio da matrimonio religioso nelle singole regioni tra il 2015-2021
+Questa analisi ha come obiettivo quello di mostrare tramite grafici la diminuzione del seguito religioso e dei matrimoni (facendo particolare attenzione al tipo di rito di svolgimento) cercando una correlazione tra questi dati.
 
-#4) 
-#    1)Media Matrimoni religiosi 
-#    2)Mediana Matrimoni religiosi
-#    3)Deviazione standard: Per valutare la variabilità tra i valori annuali.
-#    4)Trend
+<div>
+    <b>Articoli di Interesse:</b>
+    <ul>
+        <li><a href="https://www.settimananews.it/societa/italia-forte-ribasso-pratica-religiosa/#:~:text=ISTAT%3A%20pratica%20religiosa%20Italia%202001,numero%20%C3%A8%20sceso%20del%2025%25.">Italia: in forte ribasso la pratica religiosa</a>
+        <li><a  href="https://finanza.lastampa.it/News/2024/11/22/matrimoni-in-calo-in-italia-nel-2023-la-fotografia-dellistat/NzNfMjAyNC0xMS0yMl9UTEI">Matrimoni in calo in Italia nel 2023</a></li>
+        <li><a href="https://www.ami-avvocati.it/?p=8997#:~:text=Matrimoni%20e%20divorzi%20ai%20livelli%20pre%2DCovid&text=Nel%202021%2C%20le%20separazioni%20(97.913,2016%2C%20anno%20record%20dei%20divorzi.">Matrimoni e divorzi ai livelli pre-Covid</a></li>
+    </ul>
+</div>
+
+<b>Fonte dati:</b>
+<ul>
+    <li><a href="http://dati.istat.it/#">Istat</a></li>
+</ul>
